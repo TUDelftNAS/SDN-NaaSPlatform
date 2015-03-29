@@ -1,7 +1,5 @@
 #!/bin/sh
 
-
-
 # # #Copyright (C) 2015, Delft University of Technology, Faculty of Electrical Engineering, Mathematics and Computer Science, Network Architectures and Services and TNO, ICT - Service Enabling and Management, Mani Prashanth Varma Manthena, Niels van Adrichem, Casper van den Broek and F. A. Kuipers
 #
 # This file is part of NaaSPlatform.
@@ -19,7 +17,9 @@
 # You should have received a copy of the GNU General Public License
 # along with NaaSPlatform. If not, see <http://www.gnu.org/licenses/>.
 
- Initializing and running all the required python executable files of the SNMP Web Application
+
+
+Initializing and running all the required python executable files of the SNMP Web Application
 
 
 # Initializing and running the SNMP based web application - RESTful web services
