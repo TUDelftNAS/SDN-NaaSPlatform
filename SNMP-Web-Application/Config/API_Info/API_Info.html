@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p><b>***Welcome to the SNMP based Web Application (RESTful Web Services) - Home Directory***</b></p>
+
+<p>.</p>
+<p>.</p>
+<p>.</p>
+
+<p><b>SNMP based web application - RESTful web services</b></p>
+
+<p>.</p>
+<p>.</p>
+<p>.</p>
+
+<p><b>REST API - URLs Information:</b></p>
+
+<p>.</p>
+<p>.</p>
+
+<p><b>1) Base URl: http://Host_IP_Address:Port_Number/</b></p>
+ <p>=> Example Base URl: http://localhost:8080/</p>
+
+<p><b>2) http://Host_IP_Address:Port_Number/</b></p>
+<p>=> SNMP based Web Application (RESTful Web Services) - Home Directory</p>
+
+<p><b>3) http://Host_IP_Address:Port_Number/snmp</b></p>
+<p>=> SNMP based Web Application (RESTful Web Services) - SNMP Directory</p>
+
+<p><b>4) http://Host_IP_Address:Port_Number/snmp/config</b></p>
+<p>=> SNMP based Web Application (RESTful Web Services) - SNMP Config Directory</p>
+
+<p><b>5) (GET) http://Host_IP_Address:Port_Number/snmp/config/agents/json</b></p> 
+<p>=> For the list of connected/configured SNMP agents.</p>
+
+<p><b>6) (GET) http://Host_IP_Address:Port_Number/snmp/config/interfaces/'Agent_Name'/json</b></p>
+<p>=> For the list of interfaces of a SNMP agent, replace 'Agent_Name' with the IP address or name of the SNMP agent in the above url.</p>
+
+<p><b>7) (GET) http://Host_IP_Address:Port_Number/snmp/config/interfaces/mac/'Agent_Name'/json</b></p>
+<p>=> For the MAC addresses of the interfaces of a SNMP agent, replace 'Agent_Name' with the IP address or name of the SNMP agent in the above url.</p>
+
+<p><b>8) (PUT) http://Host_IP_Address:Port_Number/snmp/config/thresholds/utilization/json</b></p>
+<p>=> For configuring/editing interface utilization thresholds, example JSON request = {'ifinutilization' : '10', 'ifoututilization' : '10'}.</p>
+
+<p><b>9) (GET) http://Host_IP_Address:Port_Number/snmp/config/thresholds/utilization/json</b></p> 
+<p>=> For the configured interface utilization thresholds, example JSON response = {'ifinutilization' : '10', 'ifoututilization' : '10'}.</p>
+
+<p><b>10) (PUT) http://Host_IP_Address:Port_Number/snmp/events</b></p>
+<p>=> SNMP based Web Application (RESTful Web Services) - SNMP Events Directory</p>
+
+<p><b>11) (GET) http://Host_IP_Address:Port_Number/snmp/events/interface/status/'Agent_Name'/json</b></p> 
+<p>=> For the 'down' operational status events (i.e. link failure events) of an SNMP agent's interfaces, replace 'Agent_Name' with the IP address or name of the SNMP agent in the above url, example JSON response = {'Interface_ID' : 'down', ... }.</p>
+
+<p><b>12) (GET) http://Host_IP_Address:Port_Number/snmp/events/interface/status/Agent_Name/json</b></p>
+<p>=> For the high interface utilization events (i.e. high link bandwidth utilization events according to the above configured utilization threshold values) of an SNMP agent's interfaces, replace 'Agent_Name' with the IP address or name of the SNMP agent in the above url, example JSON response = {'Interface_ID' : 'Utilization_Value', ... }.</p>
+
+<p>.</p>
+<p>.</p>
+<p>.</p>
+
+<p><b>Author Details:</b></p>
+<p><b>Name: Mani Prashanth Varma Manthena</b></p>
+<p><b>Contact: me@prashanthvarma.com</b></p>
+
+</body>
+</html>
+
+
+
+
+
+
+
