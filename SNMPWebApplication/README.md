@@ -82,6 +82,11 @@ Default URL:
 
 Note: `snmp-ip` in the above URL is the IP address of the system hosting SNMPWebApplication, this URL is also the base URL for SNMPWebApplication's REST API. All the exposed REST APIs by SNMPWebApplication are well documented in its web GUI.
 
+## SNMPWebApplication Web GUI
+
+![SNMPWebApplication GUI](README_Images/SNMPWebApplication_GUI_1.png)
+![SNMPWebApplication GUI](README_Images/SNMPWebApplication_GUI_2.png)
+
 ## Custom Testbed Setups
 
 If you want to implement SNMPWebApplication for custom testbed setups, you need to make following changes to the source code scripts and configuration files of SNMPWebApplication:
