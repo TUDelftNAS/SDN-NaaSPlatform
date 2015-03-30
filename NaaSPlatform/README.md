@@ -76,7 +76,7 @@ Note: The `-of13` command launches the OpenDaylight Controller with OpenFlow pro
 
 ##### Verification
 
-After launching the OpenDaylight controller, verify the controller's operational status by navigating to its web GUI.
+After launching the OpenDaylight controller, verify its operational status by navigating to its web GUI.
 
 URL: http://controller-ip:8080
 
@@ -113,7 +113,7 @@ Port Number =  6343 (sFlow protocol port number)
 
 ##### Verification
 
-After launching the sFlow-RT network analyzer, verify the analyzer's operational status by navigating to its web GUI.
+After launching the sFlow-RT network analyzer, verify its operational status by navigating to its web GUI.
 
 URL:
 http://analyzer-ip:8008
@@ -121,12 +121,12 @@ http://analyzer-ip:8008
 Default URL:
 [http://localhost:8008](http://localhost:8008)
 
-Note: `analyzer-ip` in the above URL is the IP address of the system hosting the sFlow-RT network analyzer, this URL is also the base URL for the sFlow-RT network analyzer's REST API. All the exposed REST APIs by the sFlow-RT network analyzer are well documented in the analyzer's web GUI.
+Note: `analyzer-ip` in the above URL is the IP address of the system hosting the sFlow-RT network analyzer, this URL is also the base URL for the sFlow-RT network analyzer's REST API. All the exposed REST APIs by the sFlow-RT network analyzer are well documented in its web GUI.
 
 #### Custom built SNMP web application
  
 The procedure for installing and launching the custom built SNMP web application ([SNMPWebApplication](../SNMPWebApplication)) is available in its source code [README](../SNMPWebApplication/README.md) file. 
-After launching the SNMPWebApplication, verify the application's operational status by navigating to its web GUI.
+After launching SNMPWebApplication, verify its operational status by navigating to its web GUI.
 
 URL:
 http://snmp-ip:8090
@@ -134,7 +134,7 @@ http://snmp-ip:8090
 Default URL:
 [http://localhost:8090](http://localhost:8090)
 
-Note: `snmp-ip` in above URL is the IP address of the system hosting the SNMPWebApplication, this URL is also the base URL for the SNMPWebApplication's REST API. All the exposed REST APIs by the SNMP Web Application are well documented in the application's web GUI.
+Note: `snmp-ip` in above URL is the IP address of the system hosting SNMPWebApplication, this URL is also the base URL for SNMPWebApplication's REST API. All the exposed REST APIs by SNMPWebApplication are well documented in its web GUI.
 
 ## Installing and launching NaaSPlatform
 
@@ -148,7 +148,11 @@ Note: The `./start.sh` command launches all the required scripts in the source c
 
 After launching NaaSPlatform, go to the running Main Application (`Main_App`) xterm terminal window and configure NaaSPlatform as per the instructions in that xterm terminal window.
 
-After NaaSPlatform is configured in the Main Application, you will be presented with a command prompt to execute manual NaaS operations. Enter `help` or `list` or `?` in the command prompt to view all the available manual NaaS operations through NaaSPlatform.
+After NaaSPlatform is configured in the Main Application, you will be presented with a command prompt to execute manual NaaS operations. Enter `help` or `list` or `?` in the command prompt to view all the available manual NaaS operations through NaaSPlatform. This command prompt is also called as NaaS CLI (or) NaaSPlatform's CLI.
+
+## NaaSPlatform's CLI
+
+![NaaSPlatform's CLI](README_Images/NaaS_CLI.png)
 
 ## Running NaaSPlatform's virtualized network functions
 
@@ -176,6 +180,20 @@ At the start of NaaSPlatform, the recommended order of configuring and starting 
 3) Starting a new instance of Edge Firewall Application
 
 `$ python Setup_Edge_Firewall_App`
+
+## NaaSPlatform's basic network connectivity services
+
+### Basic connectivity service
+
+![Basic connectivity service](README_Images/Basic_Connectivity_Service.jpg)
+
+### Load balancing service
+
+![Edge firewalling service](README_Images/Edge_Firewalling_Service.jpg)
+
+### Edge firewalling service
+
+![Load balancing service](README_Images/Load_Balancing_Service.jpg)
 
 ## Reconfiguring NaaSPlatform
 
