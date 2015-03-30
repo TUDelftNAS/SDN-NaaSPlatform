@@ -10,7 +10,7 @@ NaaSPlatform is configured by default for proof-of-concept (PoC) testbed setups 
 
 NaaSPlatform is completely written in Python 2.7 due to its simplicity, interoperability, support and platform agnostic nature. Thus, NaaSPlatform will run in all OS distributions and environments with Python version 2.x installed. 
 
-NaaSPlatform has been tested and implemented in systems with Debaian-based Linux OS and Python version 2.7 installed.
+NaaSPlatform has been tested and implemented in systems with Debian-based Linux OS and Python version 2.7 installed.
 
 ### Python packages
 
@@ -183,17 +183,17 @@ At the start of NaaSPlatform, the recommended order of configuring and starting 
 
 ## NaaSPlatform's basic network connectivity services
 
-### Basic connectivity service
+### Basic connectivity service flow diagram
 
 ![Basic connectivity service](README_Images/Basic_Connectivity_Service.jpg)
 
-### Load balancing service
-
-![Edge firewalling service](README_Images/Edge_Firewalling_Service.jpg)
-
-### Edge firewalling service
+### Load balancing service flow diagram
 
 ![Load balancing service](README_Images/Load_Balancing_Service.jpg)
+
+### Edge firewalling service flow diagram
+
+![Edge firewalling service](README_Images/Edge_Firewalling_Service.jpg)
 
 ## Reconfiguring NaaSPlatform
 
