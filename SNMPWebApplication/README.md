@@ -10,7 +10,7 @@ SNMPWebApplication's source code is written and configured for network core inte
 
 SNMPWebApplication is completely written in Python 2.7 due to its simplicity, interoperability, support and platform agnostic nature. Thus, SNMPWebApplication will run in all OS distributions and environments with Python version 2.x installed. 
 
-SNMPWebApplication has been tested and implemented in systems with Debaian-based Linux OS and Python version 2.7 installed.
+SNMPWebApplication has been tested and implemented in systems with Debian-based Linux OS and Python version 2.7 installed.
 
 ### Python packages
 
@@ -84,8 +84,8 @@ Note: `snmp-ip` in the above URL is the IP address of the system hosting SNMPWeb
 
 ## SNMPWebApplication Web GUI
 
-![SNMPWebApplication GUI](README_Images/SNMPWebApplication_GUI_1.png)
-![SNMPWebApplication GUI](README_Images/SNMPWebApplication_GUI_2.png)
+![SNMPWebApplication GUI 1](README_Images/SNMPWebApplication_GUI_1.png)
+![SNMPWebApplication GUI 2](README_Images/SNMPWebApplication_GUI_2.png)
 
 ## Custom Testbed Setups
 
