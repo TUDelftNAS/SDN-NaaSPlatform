@@ -1,5 +1,22 @@
 # SNMPWebApplication
 
+    Copyright (C) 2015, Delft University of Technology, Faculty of Electrical Engineering, Mathematics and Computer Science, Network Architectures and Services and TNO, ICT - Service Enabling and Management, Mani Prashanth Varma Manthena, Niels van Adrichem, Casper van den Broek and F. A. Kuipers
+
+    This file is part of NaaSPlatform.
+
+    NaaSPlatform is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    NaaSPlatform is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with NaaSPlatform. If not, see <http://www.gnu.org/licenses/>.
+
 SNMPWebApplication is a custom built SNMP-based network interface monitoring web application, it exposes network interface failure and high bandwidth utilization events with configurable utilization thresholds via its REST API to the applications running on top of it (e.g. NaaSPlatform). Moreover, it is a prerequisite for NaaSPlatform.
 
 When using SNMPWebApplication along with NaaSPlatform please refer to the accompanying article: Mani Prashanth Varma Manthena, Niels L. M. van Adrichem, Casper van den Broek and Fernando A. Kuipers, An SDN-based Architecture for Network-as-a-Service, IEEE Conference on Network Softwarization (IEEE NetSoft), London, UK, April 13-17, 2015 http://www.nas.ewi.tudelft.nl/people/Fernando/papers/SDN4NaaS.pdf
